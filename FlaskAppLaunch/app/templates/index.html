@@ -1,0 +1,40 @@
+<!--
+filename: index.html
+This script serves as the landing page and directory for the Flask Launching tutorial.
+-->
+
+<html>
+	<head>
+		<title> Home - Flask Launch Tutorial </title>
+
+
+	</head>
+
+
+	<body>
+		<h1> How to Launch a Flask App! </h1>
+		<h2> Brought to you with love by the Silicon Swamp Thing </h2>
+		<ul>
+			<li><a href="{{ url_for('activate_venv') }}">Lesson 1: Activate and Deactivate a Virtual Environment </a></li>
+
+			<li><a href="{{ url_for('create_venv') }}">Lesson 2: Create a New Virtual Environment </a></li>
+
+			<li><a href="{{ url_for('install_flask') }}">Lesson 3: Install Flask </a></li>
+
+			<li><a href="{{ url_for('launch_flask_locally') }}">Lesson 4: Lanuch a Flask App on your Local Computer </a></li>
+
+			<li><a href="{{ url_for('view_flask_app') }}">Lesson 5: View a Flask App Running Locally </a></li>
+
+			<li><a href="{{ url_for('hello_world') }}">Lesson 6: Create a Flask App that Prints 'Hello, world!' </a></li>
+
+			<li><a href="{{ url_for('render_html') }}">Lesson 7: Render an HTML Template Through a Flask View </a></li>
+
+			<li><a href="{{ url_for('html_links') }}">Lesson 8: Create HTML Links that Switch Between HTML Pages from the Browser </a></li>
+		</ul>
+
+
+	</body>
+
+
+
+</html>
